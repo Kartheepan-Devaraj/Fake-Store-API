@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+  height: 40px;
+  justify-content: center;
+  background-color: rgb(92, 119, 119);
+  color: white;
+  font-size: 15px;
+  font-family: "Croissant One", cursive;
+}
+
+nav li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+.e-com {
+  margin-left: 2%;
+}
+
+.products {
+  margin-left: 68%;
+}
+
+#cartDetails {
+  display: grid;
+  grid-template-rows: 0fr 0fr 0fr;
+  grid-template-columns: 0fr 0fr 0fr;
+  column-gap: 150px;
+  row-gap: 10px;
+  align-items: center;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  width: 50%;
+  visibility: visible;
+  background-color: white;
+  padding: 20px;
+  font-family: "Croissant One", cursive;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.quantity {
+  display: flex;
+  gap: 30px;
+}
+
+.name {
+  display: flex;
+  gap: 30px;
+}
+
+#plus,
+#minus {
+  border: none;
+  border-radius: 10%;
+  background-color: grey;
+  height: 35px;
+  width: 28px;
+  padding: 0%;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}

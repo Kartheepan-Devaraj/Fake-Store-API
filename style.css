@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+  height: 40px;
+  justify-content: center;
+  background-color: rgb(92, 119, 119);
+  color: white;
+  font-size: 15px;
+  font-family: "Croissant One", cursive;
+}
+
+nav li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+.e-com {
+  margin-left: 2%;
+}
+
+.products {
+  margin-left: 68%;
+}
+
+#cards {
+  height: 390px;
+  width: 250px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #7895cb;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #4e4feb;
+}
+
+#two {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 5%;
+  margin-top: 3%;
+  row-gap: 30px;
+  padding-bottom: 20px;
+  font-family: "DM Sans", sans-serif;
+}

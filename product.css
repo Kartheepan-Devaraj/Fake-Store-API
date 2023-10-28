@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+  height: 40px;
+  justify-content: center;
+  background-color: rgb(92, 119, 119);
+  color: white;
+  font-size: 15px;
+  font-family: "Croissant One", cursive;
+}
+
+nav li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.e-com {
+  margin-left: 0px;
+}
+
+.products {
+  margin-left: 68%;
+}
+
+.btn {
+  background-color: #279eff;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-family: "Croissant One", cursive;
+}
+
+.btn:hover {
+  background-color: #4e4feb;
+}
+
+.img {
+  margin-top: 5%;
+  margin-left: -60%;
+}
+
+#two {
+  /* height: 400px; */
+  width: 50%;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 10%;
+  padding: 15px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.details {
+  text-align: justify;
+  margin-top: -40%;
+}
+
+.para {
+  color: #3085c3;
+}
+
+.description {
+  justify-content: center;
+  text-align: inherit;
+}
